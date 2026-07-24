@@ -13,13 +13,13 @@
 # below are what CI rewrites — keep them on their own lines.
 class Yellowjacket < Formula
   desc "Cross-platform desktop music player — local library, MusicBrainz explore & auto-tag"
-  homepage "https://github.com/Shadow-Puppet/yellowjacket"
+  homepage "https://git.ljones.me/yonlu/yellowjacket"
   version "1.3.0"
-  url "https://github.com/Shadow-Puppet/yellowjacket/archive/refs/tags/v#{version}.tar.gz"
-  sha256 "REPLACE_WITH_SHA256_OF_THE_RELEASE_TARBALL"
+  url "https://git.ljones.me/yonlu/yellowjacket/archive/v#{version}.tar.gz"
+  sha256 "11929d9a7a32839f86213502b698a02376b38f0838fa20610408f062423899e5"
   license :cannot_represent # custom license — see repository
 
-  head "https://github.com/Shadow-Puppet/yellowjacket.git", branch: "main"
+  head "https://git.ljones.me/yonlu/yellowjacket.git", branch: "main"
 
   depends_on "go" => :build
   depends_on "node" => :build

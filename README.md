@@ -1,6 +1,6 @@
 # homebrew-yellowjacket
 
-Homebrew tap for [YellowJacket](https://github.com/Shadow-Puppet/yellowjacket),
+Homebrew tap for [YellowJacket](https://git.ljones.me/yonlu/yellowjacket),
 a cross-platform desktop music player.
 
 ```bash
