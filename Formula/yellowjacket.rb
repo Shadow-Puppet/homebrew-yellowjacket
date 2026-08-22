@@ -15,9 +15,9 @@
 class Yellowjacket < Formula
   desc "Cross-platform desktop music player — local library, MusicBrainz explore & auto-tag"
   homepage "https://git.ljones.me/yonlu/yellowjacket"
-  version "0.5.0"
+  version "0.6.0"
   url "https://git.ljones.me/yonlu/yellowjacket/archive/v#{version}.tar.gz"
-  sha256 "a327f22f0c2f8ba16ba808a172b29a29c377a19d6625842b8636cfc0a8514104"
+  sha256 "86f89153b9115c1fd29d37fe44995b1e6fb4872a6f2e1dd04a173463a451a6b1"
   license :cannot_represent # custom license — see repository
 
   head "https://git.ljones.me/yonlu/yellowjacket.git", branch: "main"
